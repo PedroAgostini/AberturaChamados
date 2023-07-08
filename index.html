@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TI-Lenharo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="bk-white">
+    <h1>Abertura de Chamados de TI</h1>
+    <h2><img src="logo-lenharo_Logo Nome.png" alt="logo.png"></h2>
+
+    <div class="center">
+    <form id="chamadoForm">
+        <label for="nome">Nome:</label>
+        <input class="input" type="text" id="nome" name="nome" required>
+
+        <label for="setor">Setor:</label>
+        <input class="input" type="text" id="setor" name="setor" required>
+
+        <label for="descricao">Descrição do problema:</label>
+        <textarea class="input" id="descricao" name="descricao" rows="6" required></textarea>
+
+        <label class="importancia" for="importancia">Prioridade:</label> 
+        <select id="prioridade">
+            <option value="BAIXA">Baixa</option>
+            <option value="MÉDIA">Média</option>
+            <option value="ALTA">Alta</option>
+            <option value="URGENTE">Urgente</option>
+        </select>
+
+        <input class="submit" type="submit" value="Abrir Chamado">
+    </form>
+    </div>
+</div>
+
+    <footer>
+        <h5>Developed by <a href="https://br.linkedin.com/in/pedrodeagostini">DevPedroAgostini</a></h5>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
